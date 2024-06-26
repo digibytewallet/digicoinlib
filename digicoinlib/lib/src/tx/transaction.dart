@@ -26,7 +26,7 @@ class CannotSignInput implements Exception {
   String toString() => "CannotSignInput: $message";
 }
 
-/// Allows construction and signing of Sumcoin transactions including those
+/// Allows construction and signing of DigiByte transactions including those
 /// with witness data.
 class Transaction with Writable {
 
@@ -390,7 +390,7 @@ class Transaction with Writable {
   /// The serialized tx data without witness data hashed with sha256d
   Uint8List get legacyHash => _legacyHashCache ??= legacy.hash;
 
-  /// Get the reversed hash as hex which is usual for Sumcoin transactions
+  /// Get the reversed hash as hex which is usual for DigiByte transactions
   /// This provides the witness txid. See [legacyHash] for the legacy type of
   /// hash.
   String get hashHex => bytesToHex(Uint8List.fromList(hash.reversed.toList()));

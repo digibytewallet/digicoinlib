@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 The secp256k1 library bundled into the flutter plugin via cocoapods.
                        DESC
-  s.homepage         = 'http://sumcoin.org'
+  s.homepage         = 'http://digibytewallet.org'
   s.license          = { :file => '../LICENSE' }
   s.author           = 'Sumcoin Developers'
 

@@ -8,8 +8,8 @@
 
 <p align="center">
 <!--  <a href="https://chainz.cryptoid.info/ppc/address.dws?p77CZFn9jvg9waCzKBzkQfSvBBzPH1nRre"> -->
-  <a href="https://sumexplorer.com">
-  <img src="https://badgen.net/badge/sumcoin/Donate/blue?icon=https://sumcoin.org/wp-content/uploads/2019/07/sumcoin_400x400.png" alt="Sumcoin Donate">
+  <a href="https://chainz.cryptoid.info/dgb/">
+  <img src="https://badgen.net/badge/digibyte/Donate/blue?icon=https://cryptologos.cc/logos/digibyte-dgb-logo.png?v=032" alt="Sumcoin Donate">
 
   <a href="https://pub.dev/packages/digicoinlib_flutter">
     <img alt="pub.dev" src="https://img.shields.io/pub/v/digicoinlib_flutter?logo=dart&label=pub.dev">
@@ -19,7 +19,7 @@
 # Digicoinlib for Flutter
 
 This package provides flutter support for the
-[digicoinlib](https://pub.dev/packages/digicoinlib) library for Sumcoin and
+[digicoinlib](https://pub.dev/packages/digicoinlib) library for DigiByte and
 other cryptocoins. A `DigiCoinlibLoader` widget is included that must be used when
 targeting web to ensure the library is ready to be used.
 
